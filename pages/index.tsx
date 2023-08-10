@@ -69,7 +69,7 @@ const Home: NextPage = () => {
             
             <LotteryStatus status={lotteryStatus}/>
             {!ticketCostLoading && (
-              <Text fontSize={"2xl"} fontWeight={"bold"}>티켓당 가격: {ticketCostInEther} MATIC</Text>
+              <Text fontSize={"2xl"} fontWeight={"bold"}>응모권당 가격: {ticketCostInEther} MATIC</Text>
             )}
             {address ? (
               <Flex flexDirection={"row"}>
