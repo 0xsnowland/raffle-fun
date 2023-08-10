@@ -29,7 +29,7 @@ export default function PrizeNFT() {
 
     return (
         <Card p={"5%"}>
-                <Heading>Prize NFT</Heading>
+                <Heading>Prize</Heading>
                 {!nftContractMetadataLoading && !nftLoading ? (
                     <Stack spacing={"20px"} textAlign={"center"}>
                         <Box>
