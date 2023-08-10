@@ -61,7 +61,7 @@ const Home: NextPage = () => {
         <Flex justifyContent={"center"} alignItems={"center"} p={"5%"}>
           <Stack spacing={10}>
             <Box>
-              <Text fontSize={"xl"}>Raffle App</Text>
+              <Text fontSize={"xl"}>SMATh WORLD Raffle</Text>
               <Text fontSize={"4xl"} fontWeight={"bold"}>응모권을 구매해 SMATY 티셔츠를 획득하세요!</Text>
             </Box>
             
