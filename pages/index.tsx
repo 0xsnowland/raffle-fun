@@ -62,10 +62,10 @@ const Home: NextPage = () => {
           <Stack spacing={10}>
             <Box>
               <Text fontSize={"xl"}>Raffle App</Text>
-              <Text fontSize={"4xl"} fontWeight={"bold"}>티켓을 구매해 NFT 상품을 획득하세요!</Text>
+              <Text fontSize={"4xl"} fontWeight={"bold"}>응모권을 구매해 SMATY 티셔츠를 획득하세요!</Text>
             </Box>
             
-            <Text fontSize={"xl"}>응모권을 구매해 NFT를 받을 수 있는 기회를 잡으세요! 당첨자가 선정되어 NFT가 전송됩니다. 응모권이 많을수록 당첨 확률이 높아집니다.</Text>
+            <Text fontSize={"xl"}>응모권을 구매해 NFT와 SMATY 티셔츠를 받을 수 있는 기회를 잡으세요! 당첨자에게 NFT와 SMATY 티셔츠가 배송 됩니다. 응모권이 많을수록 당첨 확률이 높아지므로 참고해주세요.</Text>
             
             <LotteryStatus status={lotteryStatus}/>
             {!ticketCostLoading && (
