@@ -101,10 +101,10 @@ const Home: NextPage = () => {
                     }
                   )}
                   isDisabled={!lotteryStatus}
-                >{`Buy Ticket(s)`}</Web3Button>
+                >{`응모권 구매`}</Web3Button>
               </Flex>
             ) : (
-              <Text>Connect wallet to buy ticket.</Text>
+              <Text>응모권을 사실려면 지갑을 연결하세요.</Text>
             )}
             {!totalEntriesLoading && (
               <Text>총 응모권: {totalEntries.toString()}</Text>
