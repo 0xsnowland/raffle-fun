@@ -62,10 +62,10 @@ const Home: NextPage = () => {
           <Stack spacing={10}>
             <Box>
               <Text fontSize={"xl"}>SMATh WORLD Raffle</Text>
-              <Text fontSize={"4xl"} fontWeight={"bold"}>응모권을 구매해 SMATY 티셔츠를 획득하세요!</Text>
+              <Text fontSize={"4xl"} fontWeight={"bold"}>SMATY 티셔츠와 NFT를 소장의 기회!</Text>
             </Box>
             
-            <Text fontSize={"xl"}>응모권을 구매해 NFT와 SMATY 티셔츠를 받을 수 있는 기회를 잡으세요! 당첨자에게 NFT와 SMATY 티셔츠가 배송 됩니다. 응모권이 많을수록 당첨 확률이 높아지므로 참고해주세요.</Text>
+            <Text fontSize={"xl"}>응모권을 구매하시고 래플에 당첨되시면 고급스러운 SMATY 티셔츠와 NFT를 받을 수 있습니다. 세련된 스타일과 품격을 원하는 스마티분들에게 딱 맞는 기회입니다. 응모권을 많이 보유할수록 당첨 확률이 높아집니다. 지금 바로 참여하고, 독보적인 스타일을 완성하세요!</Text>
             
             <LotteryStatus status={lotteryStatus}/>
             {!ticketCostLoading && (
